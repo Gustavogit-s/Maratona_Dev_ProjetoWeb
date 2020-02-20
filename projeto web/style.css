@@ -46,7 +46,7 @@ header, main , footer{
 }
 
 
-header, form , main{
+header, .form , main{
      /* ESPAÇAMENTOS COM MARGIN*/
     margin: 0  auto 70px;
 
@@ -60,7 +60,7 @@ header, form , main{
 header button{
     margin-top: 16px;
     padding: 8px 16px;
-    border-radius: 16px;
+    border-radius: 4px;
     border:none;
 
     background-color: #ff4f4f;
@@ -82,13 +82,13 @@ header p{
 section.form{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap:45px ;
+    gap:45px ;
     align-items: center;
 
     background-color: #ff4f4f;
 
     padding: 16px 64px;
-
+    border-radius: 4px;
 }
 
 form input,
@@ -123,6 +123,7 @@ main .donors {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
 .blood {
     color:#ff4f4f;
     font-weight: bold;
@@ -140,7 +141,7 @@ main .donors {
     background-color: #ff4f4f11;
 
     width: 40px;
-    right: 40px;
+    height: 40px;
 
     position: absolute;
 
@@ -178,3 +179,4 @@ section.form.hide {
     margin-top: -70px;
 
 }
+
