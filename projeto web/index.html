@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- HTML 
+
+
+
+    HYPERTEX
+    texto que contem links para outros documnetos
+
+    MARKUP
+    texto contera marcações 
+   
+
+    LANGUAGE 
+    para me comunicar de certa maneira. sintaxe
+
+
+ 
+-->
+<html>
+
+<head>
+    <title>Doe vida! Doe sangue.</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="logo"
+         src="logo.png" 
+         alt="DOE">
+        <h2>A sua doação importa</h2>
+        <p>Até 3 vidas com 1 doação</p>
+        <p>Mais de 38.000 doações são necessarias todos os dias </p>
+        <p>Apenas 1.9% da população brasileira, doa sangue</p>
+
+        <button>Quero ajudar</button>
+    </header>
+
+    <section class="form hide">
+        <h2>Entre na lista de doadores</h2>
+        <form action="/">
+            <input
+                type="text"
+                name="name"
+                placeholder="Nome Completo"
+            >    
+            <input
+                type="text"
+                name="Email"
+                placeholder="Email"
+            >
+            <input
+                type="text"
+                name="bloond"
+                placeholder="Tipo sanguineo"
+            > 
+            <button>Quero ajudar</button>   
+
+        </form>
+
+    </section>
+    <main>
+        <h2 >Últimos <span>doadores</span></h2>
+
+        <section class="donors">
+            <div class="donor">
+                <div class="bloond">AB+</div>
+                <p>Gustavo Lima</p>
+            </div>
+              <div class="donor">
+                <div class="bloond">B+</div>
+                <p>Cleiton Souza</p>
+            </div>
+             <div class="donor">
+                <div class="bloond">A+</div>
+                <p>Robson Marques</p>
+            </div>
+             <div class="donor">
+                <div class="bloond">O+</div>
+                <p>Diego Fernandes</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>Com 💕Rocketseat</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
