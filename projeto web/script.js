@@ -1,6 +1,7 @@
 document
-        .querySelector('header button')
-        .addEventListener("click", function() {})
-           document
-                 .querySelector('.form')
-                 .classList.toggle('hide')
+.querySelector('header button')
+.addEventListener("click", function() {
+      document
+      .querySelector('.form')
+      .classList.toggle('hide')
+})
